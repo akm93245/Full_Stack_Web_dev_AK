@@ -1,0 +1,253 @@
+﻿body {
+    font-size:0.8em; line-height:1.2em
+}
+
+h1 { font-size:2.4em; margin-top:0 }
+h2 { font-size: 2em }
+h3 { font-size: 1.2em; font-weight:bold }
+
+p.intro { font-size:1em; font-weight:bold; line-height:1.5em }
+
+p { line-height:1.5em }
+
+.border-l, .border-r { border:none }
+
+.img-circle { padding:1em }
+
+#Footer .container { padding:1em 2em }
+.container-fluid#Footer p { padding: 0 }
+
+.social { text-align:left!important;  }
+
+.navbar-brand { float:none; padding:1em }
+
+.navbar-default .navbar-form {
+    border:none
+}
+
+
+.spacer { padding:1em }
+.copyrightText { text-align:left }
+
+#Figures {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+    margin-top: -2em;
+    position: relative;
+    z-index: 500;
+    margin-bottom:0
+}
+
+#Figures ul li {
+    float: left;
+    margin: 0 0.2em;
+    width: 17%;
+    float: left;
+    padding:0;
+    background: #FFF;
+    
+}
+
+#Figures ul li:first-child {
+    margin-left: 1.8em
+}
+
+#Figures .block {
+    float: left;
+    width: 100%;
+    float: left;
+    padding: 0.5em 0;
+    border: 1px solid #eaeaea;
+    height: 4em;
+    min-height: 4em
+}
+
+#Figure .block .space-l-m {
+    margin-left: 1em
+}
+
+#Figures .figure {
+    color: #063;
+    font-size: 1.3em;
+    line-height: 1.1em
+}
+
+#Figures .text {
+    color: #063;
+    font-size: 0.6em;
+    line-height:1.2em;
+    display: block
+}
+
+.container#Figures { padding-bottom:0; margin-bottom:0 }
+
+.container-fluid.white { background:#FFF }
+
+.navbar img { padding:0 0.8em 0 1.5em; margin-top:0 }
+
+
+/* Navigation */
+ul.nav#PhoneCollapse {
+    padding-top: 0
+}
+
+ul.nav { text-align:left }
+.navbar .nav > li { padding: 0.3em 1em }
+.navbar .nav > li > a {
+    padding: 0.5em 0.4em
+}
+
+.navbar ul li a:hover, .navbar ul li a.active {
+    background: #fff;
+    border-bottom: none;
+    color:#063
+}
+
+#SchoolNav #Search .form-control {
+    width:100%
+}
+
+
+#SchoolMenu ul li a, #SchoolMenu ul li:first-child a {
+    padding: 0.5em 1em
+}
+
+#SchoolMenu { padding-top:0; margin-top:0; padding-bottom:0; margin-bottom:0 }
+
+#SchoolMenu ul li {
+    border-left:none
+}
+
+#SchoolMenu .nav > li:first-child > a {
+    padding-left:1em!important
+}
+
+#SchoolMenu .text-right { float:left  }
+
+.container-fluid .nav > li > a, .nav > li {
+    display: inline
+}
+
+.container-fluid.white .nav > li > a, .nav > li {
+    display: block
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    border:none
+}
+
+
+.navbar .nav > li > a {
+    padding:0
+}
+
+.navbar-nav .open .dropdown-menu > li > a, .navbar-nav .open .dropdown-menu .dropdown-header {
+    padding: 0.4em 0;
+}
+
+img.reduced { width:100% }
+#Main img { margin-bottom:1em }
+
+
+
+#Search .form-control {
+    background:#fafafa;
+    border-radius: 0;
+    border: 1px solid #CCC;
+    padding: 0 auto;
+    border-radius: .3em;
+    color: #666!important;
+}
+
+input#SearchWebsite { color:#000 }
+
+
+
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+
+    .carousel-fade .carousel-inner .active.left,
+    .carousel-fade .carousel-inner .active.right {
+        left: 0;
+        opacity: 0;
+        z-index: 1;
+    }
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.carousel .glyphicon {
+    font-size: 1em;
+    color: #FFF;
+    opacity: initial
+}
+
+.carousel .carousel-control {
+    opacity: .8
+}
+
+
+#Temporary .well { 
+    height:auto;
+    max-height:initial;
+    background:#FFF;
+    color:#000
+}
+
+#Temporary .btn-default {
+    background: #999;
+    position: relative;
+    bottom:auto;
+    margin-top:1.5em
+}
+
+
+
+.container-fluid#Temporary {
+    background-color:#063;
+    position: relative;
+    background-image: none;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-position-y: top;
+}
+
+#Temporary {
+    margin-top: 0;
+    padding: 1em
+}
+
+#Temporary .container {
+    color: #FFF; 
+    background-color:#063;
+    padding-right:3em
+}
+
+blockquote {
+    padding:0 1em 0 1em
+}
+
+#topcontrol { right:3em!important }

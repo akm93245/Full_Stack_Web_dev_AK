@@ -1,0 +1,43 @@
+﻿.container-fluid .navbar-brand  {
+    font-size: 2em;
+}
+
+#Figures ul li:first-child { margin-left:0.5em }
+
+#Copyright a.navbar-brand { font-size:1.5em }
+
+
+.container-fluid#Temporary {
+    position: relative;
+    background-image: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: top;
+}
+
+#Temporary .well {
+    background: #FFF;
+    height: auto;
+    max-height: none;
+    margin-top: 2em;
+    text-align: center;
+    float: left;
+}
+
+#Temporary .btn-default {
+    background: #999;
+    position: relative;
+    bottom: initial;
+}
+
+#Figures {
+    margin-top: -9em;
+    background: none!important
+}
+
+
+#Figures .text {
+    color: #063;
+    font-size: 0.8em;
+    display: block;
+}

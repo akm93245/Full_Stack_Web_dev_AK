@@ -1,0 +1,536 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Aga Khan Schools in Chitral - Aga Khan Schools</title>
+        <meta name="description" content="45 AKES,P schools are situated in the mountainous region of Chitral, 22 primary 11 middle 10 high, and 2 higher secondary." />    <link href="/Content/css?v=RDnmVHILoY1logClGZ0PNjc64H-1OcJVwjXvBaE4DSk1" rel="stylesheet"/>
+
+    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="/Content/desktop.css" />
+    <link rel="stylesheet" media="screen and (min-width: 320px) and (max-width: 768px)" href="/Content/iphone.css" />
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1024px) and (orientation : landscape)" href="/Content/ipad.css" />
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-device-width : 1024px) and (orientation : portrait)" href="/Content/ipad_portrait.css" />
+    <script src="/bundles/modernizr?v=wBEWDufH_8Md-Pbioxomt90vm6tJN2Pyy9u9zHtWsPo1"></script>
+
+    <link rel="stylesheet" href="https://use.typekit.net/nqb3byh.css">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <!-- <link rel="manifest" href="/manifest.json"> -->
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Google Analytics 4 (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q5SF5SE619"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-Q5SF5SE619');
+</script>
+</head>
+
+<body id="About">
+
+    
+
+    <!-- General top nav -->
+    <div class="container-fluid" id="SchoolNav">
+        <div class="navbar">
+            
+
+<!-- Desktop -->
+<div class="navbar visible-lg">
+    <div class="container" id="General">
+        <div class="row">
+            <div class="col-md-12 text-right">
+                <!-- Search box -->
+                <form class="form-inline" id="MainSearch" action="/Home/SearchResults" name="SearchForm">
+                    <div class="form-group" id="Search">
+                        <input type="hidden" name="cx" value="008341068309688650452:wmpoxq-rv_w" />
+                        <input type="hidden" name="cof" value="FORID:10" />
+                        <input type="hidden" name="ie" value="UTF-8" />
+                        <input type="text" class="form-control" id="SearchWebsite" name="q" placeholder="Search website" onfocus="if( this.value==this.defaultValue ) this.value='';">
+                    </div>
+                    <button type="submit" class="btn btn-default" id="Plain">
+                        <i class="fa fa-search" title="Search website"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4">
+                <div class="row">
+                    <div class="hidden-xs col-sm-2 col-md-2 no-space-r">
+                        <a href="/" title="Aga Khan Education Services">
+                            <img src="/Content/img/akes_grey.png" class="img-responsive" title="Aga Khan Education Services" />
+                        </a>
+                    </div>
+                    <div class="hidden-xs col-sm-10 col-md-10">
+                        <a class="navbar-brand" href="/" title="Aga Khan Education Services">Aga Khan Education Services</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-8 text-right no-space-l no-space-r">
+                <ul class="nav navbar-nav no-space-r pull-right" id="Links">
+                    <li>
+                        <a href="/About/Index" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/About/Condolences" title="About Us">Condolences in Honour of His Late Highness Aga Khan IV</a></li>
+                            <li><a href="/About/Index#AboutUs" title="About Us">About Us</a></li>
+                            <li><a href="/About/Index#AboutAKDN" title="About AKDN">About AKDN</a></li>
+                            <li><a href="/About/Index#Curriculum" title="Curriculum">Curriculum</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WHERE WE WORK</a>
+    <ul class="dropdown-menu">
+        <li><a href="/Afghanistan" title="Aga Khan Education Services in Afghanistan">Afghanistan</a></li>
+<li><a href="/India" title="Aga Khan Education Services in India">India</a></li>
+<li><a href="/Kenya" title="Aga Khan Education Services in Kenya">Kenya</a></li>
+<li><a href="/KyrgyzRepublic/AKSO/Index" title="Aga Khan Education Services in Kyrgyz Republic">Kyrgyz Republic</a></li>
+<li><a href="/Pakistan" title="Aga Khan Education Services in Pakistan">Pakistan</a></li>
+<li><a href="/Tajikistan/AKL/Index" title="Aga Khan Education Services in Tajikistan">Tajikistan</a></li>
+<li><a href="/Tanzania" title="Aga Khan Education Services in Tanzania">Tanzania</a></li>
+<li><a href="/UAE/AKELC/Index" title="Aga Khan Education Services in UAE">UAE</a></li>
+<li><a href="/Uganda" title="Aga Khan Education Services in Uganda">Uganda</a></li>
+
+    </ul>
+</li>
+                    <li><a href="/Alumni/Index" title="Alumni">ALUMNI</a></li>
+                    <li><a href="/Home/Publications" title="Publications">PUBLICATIONS</a></li>
+                    <li>
+                        <a href="/Home/News" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">NEWS & STORIES</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Home/News" title="News & Stories">News & Stories</a></li>
+                            <li><a href="/Home/Archives" title="Archives">Archives</a></li>
+                            <li><a href="/Home/Enewsletters" title="E-Newsletters">E-Newsletters</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/Home/ContactUs" title="Contact Us">CONTACT US</a></li>
+
+                    <!-- Donate -->
+                    <li>
+                        <a href="/Donate" title="Donate">
+                            DONATE
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- Tablet -->
+<div class="navbar visible-sm visible-md">
+    <div class="container" id="General" style="padding:0 1.5em">
+        <div class="row">
+            <div class="hidden-xs col-sm-2 col-md-2"></div>
+            <div class="hidden-xs col-sm-2 col-md-2 text-right">
+                <a href="/" title="Aga Khan Education Services">
+                    <img src="/Content/img/akes_grey.png" title="Aga Khan Education Services" style="width:35%" />
+                </a>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6">
+                <a class="navbar-brand" href="/" title="Aga Khan Education Services">Aga Khan Education Services</a>
+            </div>
+            <div class="hidden-xs col-sm-2 col-md-2"></div>
+        </div>
+        <div class="row">
+            <div class="hidden-xs col-sm-9 col-md-9 text-center">
+                <ul class="nav navbar-nav no-space-r">
+                    <li>
+                        <a href="/About/Index" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/About/Condolences" title="About Us">Condolences in Honour of His Late Highness Aga Khan IV</a></li>
+                            <li><a href="/About/Index#AboutUs" title="About Us">About Us</a></li>
+                            <li><a href="/About/Index#AboutAKDN" title="About AKDN">About AKDN</a></li>
+                            <li><a href="/About/Index#Curriculum" title="Curriculum">Curriculum</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WHERE WE WORK</a>
+    <ul class="dropdown-menu">
+        <li><a href="/Afghanistan" title="Aga Khan Education Services in Afghanistan">Afghanistan</a></li>
+<li><a href="/India" title="Aga Khan Education Services in India">India</a></li>
+<li><a href="/Kenya" title="Aga Khan Education Services in Kenya">Kenya</a></li>
+<li><a href="/KyrgyzRepublic/AKSO/Index" title="Aga Khan Education Services in Kyrgyz Republic">Kyrgyz Republic</a></li>
+<li><a href="/Pakistan" title="Aga Khan Education Services in Pakistan">Pakistan</a></li>
+<li><a href="/Tajikistan/AKL/Index" title="Aga Khan Education Services in Tajikistan">Tajikistan</a></li>
+<li><a href="/Tanzania" title="Aga Khan Education Services in Tanzania">Tanzania</a></li>
+<li><a href="/UAE/AKELC/Index" title="Aga Khan Education Services in UAE">UAE</a></li>
+<li><a href="/Uganda" title="Aga Khan Education Services in Uganda">Uganda</a></li>
+
+    </ul>
+</li>
+                    <li><a href="/Alumni/Index" title="Alumni">ALUMNI</a></li>
+                    <li><a href="/Home/Publications" title="Publications">PUBLICATIONS</a></li>
+                    <li>
+                        <a href="/Home/News" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">NEWS & STORIES</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Home/News" title="News & Stories">News & Stories</a></li>
+                            <li><a href="/Home/Archives" title="Archives">Archives</a></li>
+                            <li><a href="/Home/Enewsletters" title="E-Newsletters">E-Newsletters</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/Home/ContactUs" title="Contact Us">CONTACT US</a></li>
+                    <!-- Donate -->
+                    <li>
+                        <a href="/Donate" title="Donate">
+                            DONATE
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hidden-xs col-sm-3 col-md-3 no-space-r">
+                <!-- Search box -->
+                <form class="form-inline" id="MainSearch" action="/Home/SearchResults" name="SearchForm">
+                    <div class="form-group" id="Search">
+                        <input type="hidden" name="cx" value="008341068309688650452:wmpoxq-rv_w" />
+                        <input type="hidden" name="cof" value="FORID:10" />
+                        <input type="hidden" name="ie" value="UTF-8" />
+                        <input type="text" class="form-control" id="SearchWebsite" name="q" placeholder="Search website" onfocus="if( this.value==this.defaultValue ) this.value='';">
+                    </div>
+                    <button type="submit" class="btn btn-default" id="Plain">
+                        <i class="fa fa-search" title="Search website"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="hidden-sm-1 col-md-1"></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Phone -->
+<nav class="navbar navbar-default visible-xs">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <div class="row">
+                <div class="col-xs-11 space-t-s">
+                    <a href="/" title="Aga Khan Education Services home"><img src="/Content/img/akes_top_logo_school_phone.png" title="Aga Khan Education Services" /></a>
+                </div>
+                <div class="col-xs-1">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#phoneCollapse" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Data toggle -->
+        <div class="collapse navbar-collapse" id="phoneCollapse">
+            <ul class="nav navbar-nav" id="PhoneCollapse">
+                <li>
+                    <a href="/About/Index" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/About/Condolences" title="About Us">Condolences in Honour of His Late Highness Aga Khan IV</a></li>
+                        <li><a href="/About/Index#AboutUs" title="About Us">About Us</a></li>
+                        <li><a href="/About/Index#AboutAKDN" title="About AKDN">About AKDN</a></li>
+                        <li><a href="/About/Index#Curriculum" title="Curriculum">Curriculum</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WHERE WE WORK</a>
+    <ul class="dropdown-menu">
+        <li><a href="/Afghanistan" title="Aga Khan Education Services in Afghanistan">Afghanistan</a></li>
+<li><a href="/India" title="Aga Khan Education Services in India">India</a></li>
+<li><a href="/Kenya" title="Aga Khan Education Services in Kenya">Kenya</a></li>
+<li><a href="/KyrgyzRepublic/AKSO/Index" title="Aga Khan Education Services in Kyrgyz Republic">Kyrgyz Republic</a></li>
+<li><a href="/Pakistan" title="Aga Khan Education Services in Pakistan">Pakistan</a></li>
+<li><a href="/Tajikistan/AKL/Index" title="Aga Khan Education Services in Tajikistan">Tajikistan</a></li>
+<li><a href="/Tanzania" title="Aga Khan Education Services in Tanzania">Tanzania</a></li>
+<li><a href="/UAE/AKELC/Index" title="Aga Khan Education Services in UAE">UAE</a></li>
+<li><a href="/Uganda" title="Aga Khan Education Services in Uganda">Uganda</a></li>
+
+    </ul>
+</li>
+                <li><a href="/Alumni/Index" title="Alumni">ALUMNI</a></li>
+                <li><a href="/Home/Publications" title="Publications">PUBLICATIONS</a></li>
+                <li>
+                    <a href="/Home/News" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">NEWS & STORIES</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/Home/News" title="News & Stories">News & Stories</a></li>
+                        <li><a href="/Home/Archives" title="Archives">Archives</a></li>
+                        <li><a href="/Home/Enewsletters" title="E-Newsletters">E-Newsletters</a></li>
+                    </ul>
+                </li>
+                <li><a href="/Home/ContactUs" title="Contact Us">CONTACT US</a></li>
+                <!-- Donate -->
+                <li>
+                    <a href="/Donate" title="Donate">
+                        DONATE
+                    </a>
+                </li>
+            </ul>
+            <!-- Search box -->
+            <form class="navbar-form navbar-left" action="/Home/SearchResults" name="SearchForm">
+                <div class="row">
+                    <div class="col-xs-10">
+                        <div class="form-group" id="Search">
+                            <input type="hidden" name="cx" value="008341068309688650452:wmpoxq-rv_w" />
+                            <input type="hidden" name="cof" value="FORID:10" />
+                            <input type="hidden" name="ie" value="UTF-8" />
+                            <label for="SearchWebsite" id="Hide">Search website</label>
+                            <input type="text" class="form-control" id="SearchWebsite" name="q" placeholder="Search website" onfocus="if( this.value==this.defaultValue ) this.value='';">
+                        </div>
+                    </div>
+                    <div class="col-xs-1 no-space-l">
+                        <button type="submit" class="btn btn-default" id="Plain">
+                            <i class="fa fa-search" title="Search website"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+        </div>
+    </div>
+
+    <!-- Top school name -->
+    <div class="container thin">
+        <div class="row">
+            <div class="col-md-12 text-center space-b-l">
+                <h1>The Aga Khan Schools in Chitral</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Main content -->
+    
+
+
+<div id="Main">
+
+    <!-- Top image -->
+    <div class="container-fluid animated fadeInUp">
+        <img src="/Content/img/Chitral/home_banner.jpg"
+             srcset="/Content/img/Chitral/home_banner-small.jpg 480w, /Content/img/Chitral/home_banner.jpg 1080w" sizes="50vw"
+             class="space-b-l img-responsive" title="The Aga Khan Schools in Chitral">
+    </div>
+
+    <!-- About us -->
+    <a name="AboutUs"></a>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <h2>The Aga Khan Schools in Chitral</h2>
+                <p class="intro">45 AKES,P schools are situated in the mountainous region of Chitral, 22 primary 11 middle 10 high, and 2 higher secondary.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-5 col-md-5">
+                <p>Almost 8,000 students study in these schools, and are taught by more than 350 teaching staff.</p>
+                <p>The first AKES,P schools in Chitral were established in the 1980s. Since then, these schools have greatly contributed to enhancing the quality and access to education in the region, particularly in the remote, difficult-to-access areas.</p>
+                <img src="/Content/img/Chitral/chitral.jpg" class="img-circle img-responsive space-t-m" />
+                <p class="space-t-xs"><a href="/Pakistan/Index" class="btn btn-default space-b-l col-md-12" title="Other schools in Pakistan">OTHER SCHOOLS IN<br /><span class="big">PAKISTAN</span></a></p>
+            </div>
+            <div class="hidden-xs col-sm-1 col-md-1"></div>
+            <div class="col-xs-12 col-sm-6 col-md-6 border-l">
+                <h3 class="no-space-t">Schools in Chitral</h3>
+                <p><a href="/Pakistan/AKHSSK/Index" title="Aga Khan Higher Secondary School, Kuragh">Aga Khan Higher Secondary School, Kuragh</a></p>
+<p><a href="/Pakistan/AKHSSSB/Index" title="Aga Khan Higher Secondary School, Seenlasht">Aga Khan Higher Secondary School, Seenlasht</a></p>
+<p><a href="/Pakistan/AKSA/Index" title="Aga Khan School, Arkari">Aga Khan School, Arkari</a></p>
+<p><a href="/Pakistan/AKSBALEEM/Index" title="Aga Khan School, Baleem">Aga Khan School, Baleem</a></p>
+<p><a href="/Pakistan/AKSBEGUSHT/Index" title="Aga Khan School, Begusht">Aga Khan School, Begusht</a></p>
+<p><a href="/Pakistan/AKSBESTI/Index" title="Aga Khan School, Besti">Aga Khan School, Besti</a></p>
+<p><a href="/Pakistan/AKSBIRZEEN/Index" title="Aga Khan School, Birzeen">Aga Khan School, Birzeen</a></p>
+<p><a href="/Pakistan/AKSBOHTULI/Index" title="Aga Khan School, Bohtuli">Aga Khan School, Bohtuli</a></p>
+<p><a href="/Pakistan/AKSB/Index" title="Aga Khan School, Booni">Aga Khan School, Booni</a></p>
+<p><a href="/Pakistan/AKSBREP/Index" title="Aga Khan School, Brep">Aga Khan School, Brep</a></p>
+<p><a href="/Pakistan/AKSBRESHGRAM/Index" title="Aga Khan School, Breshgram">Aga Khan School, Breshgram</a></p>
+<p><a href="/Pakistan/AKSBROKE/Index" title="Aga Khan School, Broke">Aga Khan School, Broke</a></p>
+<p><a href="/Pakistan/AKSBUZUND/Index" title="Aga Khan School, Buzund">Aga Khan School, Buzund</a></p>
+<p><a href="/Pakistan/AKSCHAPALI/Index" title="Aga Khan School, Chapali">Aga Khan School, Chapali</a></p>
+<p><a href="/Pakistan/AKSGARAMCHASHMA/Index" title="Aga Khan School, Garamchashma (ECD Campus)">Aga Khan School, Garamchashma (ECD Campus)</a></p>
+<p><a href="/Pakistan/AKSGASHT/Index" title="Aga Khan School, Gasht">Aga Khan School, Gasht</a></p>
+<p><a href="/Pakistan/AKSGOBOR/Index" title="Aga Khan School, Gobor">Aga Khan School, Gobor</a></p>
+<p><a href="/Pakistan/AKSHASSANABAD/Index" title="Aga Khan School, Hassanabad">Aga Khan School, Hassanabad</a></p>
+<p><a href="/Pakistan/AKSKHOT/Index" title="Aga Khan School, Khot">Aga Khan School, Khot</a></p>
+<p><a href="/Pakistan/AKSKHRUZG/Index" title="Aga Khan School, Khruzg">Aga Khan School, Khruzg</a></p>
+<p><a href="/Pakistan/AKSKHUZH/Index" title="Aga Khan School, Khuzh">Aga Khan School, Khuzh</a></p>
+<p><a href="/Pakistan/AKSKOSHT/Index" title="Aga Khan School, Kosht">Aga Khan School, Kosht</a></p>
+<p><a href="/Pakistan/AKSLONE/Index" title="Aga Khan School, Lone">Aga Khan School, Lone</a></p>
+<p><a href="/Pakistan/AKSMADAKLASHT/Index" title="Aga Khan School, Madaklasht">Aga Khan School, Madaklasht</a></p>
+<p><a href="/Pakistan/AKSMASTUJ/Index" title="Aga Khan School, Mastuj">Aga Khan School, Mastuj</a></p>
+<p><a href="/Pakistan/AKSMERAGRAM/Index" title="Aga Khan School, Meragram">Aga Khan School, Meragram</a></p>
+<p><a href="/Pakistan/AKSMERAGRAM2/Index" title="Aga Khan School, Meragram 2">Aga Khan School, Meragram 2</a></p>
+<p><a href="/Pakistan/AKSMOMI/Index" title="Aga Khan School, Momi">Aga Khan School, Momi</a></p>
+<p><a href="/Pakistan/AKSMORDER/Index" title="Aga Khan School, Morder">Aga Khan School, Morder</a></p>
+<p><a href="/Pakistan/AKSOVIR/Index" title="Aga Khan School, Ovir Arkari">Aga Khan School, Ovir Arkari</a></p>
+<p><a href="/Pakistan/AKSOVIRK/Index" title="Aga Khan School, Ovirk">Aga Khan School, Ovirk</a></p>
+<p><a href="/Pakistan/AKSPARKUSAP/Index" title="Aga Khan School, Parkusap">Aga Khan School, Parkusap</a></p>
+<p><a href="/Pakistan/AKSPARSAN/Index" title="Aga Khan School, Parsan">Aga Khan School, Parsan</a></p>
+<p><a href="/Pakistan/AKSPARWAK/Index" title="Aga Khan School, Parwak">Aga Khan School, Parwak</a></p>
+<p><a href="/Pakistan/AKSPOWER/Index" title="Aga Khan School, Power">Aga Khan School, Power</a></p>
+<p><a href="/Pakistan/AKSRAMAN/Index" title="Aga Khan School, Raman">Aga Khan School, Raman</a></p>
+<p><a href="/Pakistan/AKSRECH/Index" title="Aga Khan School, Rech">Aga Khan School, Rech</a></p>
+<p><a href="/Pakistan/AKSROYEE/Index" title="Aga Khan School, Royee">Aga Khan School, Royee</a></p>
+<p><a href="/Pakistan/AKSSAHT/Index" title="Aga Khan School, Saht">Aga Khan School, Saht</a></p>
+<p><a href="/Pakistan/AKSSHAH/Index" title="Aga Khan School, Shah">Aga Khan School, Shah</a></p>
+<p><a href="/Pakistan/AKSSHUIST/Index" title="Aga Khan School, Shuist">Aga Khan School, Shuist</a></p>
+<p><a href="/Pakistan/AKSSOLARSPUR/Index" title="Aga Khan School, Solarspur">Aga Khan School, Solarspur</a></p>
+<p><a href="/Pakistan/AKSSUSOOM/Index" title="Aga Khan School, Susoom">Aga Khan School, Susoom</a></p>
+<p><a href="/Pakistan/AKSUCHU/Index" title="Aga Khan School, Uchu-Mogh">Aga Khan School, Uchu-Mogh</a></p>
+<p><a href="/Pakistan/AKSYARKHUNLASHT/Index" title="Aga Khan School, Yarkhunlasht">Aga Khan School, Yarkhunlasht</a></p>
+<p><a href="/Pakistan/AKSZHUPOO/Index" title="Aga Khan School, Zhupoo">Aga Khan School, Zhupoo</a></p>
+
+
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+    <!-- Footer -->
+    
+
+<div class="container-fluid" id="Footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <p>
+                    <strong>ABOUT AKES</strong>
+                </p>
+                <p>
+                    <a href="/About/Index#AboutAKES" title="About the Aga Khan Education Services">Aga Khan Education Services</a><br />
+                    <a href="/Home/Index#News" title="News">News</a><br />
+                    <a href="/Alumni/Index" title="Alumni">ALUMNI</a><br />
+                    <a href="/Home/Publications" title="Publications">Publications</a><br />
+                    <a href="/About/Index#Curriculum" title="Curriculum">Curriculum</a><br />
+                </p>
+                <p>
+                    <br />
+                    <strong>CONTACT</strong>
+                </p>
+                <p>
+                    <a href="/About/Contact" title="Find a School">Find a School</a>
+                </p>
+            </div>
+            <div class="spacer visible-xs"></div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <p>
+                    <strong>RELATED WEBSITES</strong>
+                </p>
+                <p>
+                    <a href="https://www.agakhanacademies.org/" title="Aga Khan Academies" target="_blank" rel="noreferrer">Aga Khan Academies</a><br />
+                    <a href="https://www.akdn.org" title="Aga Khan Development Network" target="_blank" rel="noreferrer">Aga Khan Development Network</a><br />
+                    <a href="https://ucentralasia.org/" title="University of Central Asia" target="_blank" rel="noreferrer">University of Central Asia</a><br />
+                    <a href="https://www.agakhanhospitals.org/" title="Aga Khan Hospitals" target="_blank" rel="noreferrer">Aga Khan Hospitals</a><br />
+                    <a href="https://www.aku.edu/Pages/home.aspx" title="Aga Khan University" target="_blank" rel="noreferrer">Aga Khan University</a><br />
+                    <a href="https://iis.ac.uk/" title="Institute of Ismaili Studies" target="_blank" rel="noreferrer">Institute of Ismaili Studies</a>
+                </p>
+            </div>
+            <div class="spacer visible-xs"></div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <p>
+                    <strong>WHERE WE WORK</strong>
+                </p>
+                <p>
+                    <ul class="list-unstyled">
+                        <li><a href="/Afghanistan" title="Aga Khan Education Services in Afghanistan">Afghanistan</a></li>
+<li><a href="/India" title="Aga Khan Education Services in India">India</a></li>
+<li><a href="/Kenya" title="Aga Khan Education Services in Kenya">Kenya</a></li>
+<li><a href="/KyrgyzRepublic/AKSO/Index" title="Aga Khan Education Services in Kyrgyz Republic">Kyrgyz Republic</a></li>
+<li><a href="/Pakistan" title="Aga Khan Education Services in Pakistan">Pakistan</a></li>
+<li><a href="/Tajikistan/AKL/Index" title="Aga Khan Education Services in Tajikistan">Tajikistan</a></li>
+<li><a href="/Tanzania" title="Aga Khan Education Services in Tanzania">Tanzania</a></li>
+<li><a href="/UAE/AKELC/Index" title="Aga Khan Education Services in UAE">UAE</a></li>
+<li><a href="/Uganda" title="Aga Khan Education Services in Uganda">Uganda</a></li>
+
+                    </ul>
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3 no-space-l">
+                <div class="spacer visible-xs"></div>
+                <p>
+                    <strong>NEWSLETTER SIGN UP</strong>
+                </p>
+                <a href="https://agakhanacademies.us16.list-manage.com/subscribe?u=30cc75afbff328574d41f327d&id=85ab1325af" target="_blank" rel="noreferrer" title="Subscribe to the Aga Khan Schools digital newsletter">Subscribe to the Aga Khan Schools digital newsletter</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" id="Copyright">
+    <div class="container">
+        <div class="row visible-xs">
+            <div class="col-xs-12 text-center">
+                <img src="/Content/img/akes_logo_footer.jpg" class="space-b-m" title="Aga Khan Education Services" />
+            </div>
+        </div>
+        <div class="row visible-xs">
+            <p class="text-center">
+                © Aga Khan Schools 2009 - All rights reserved<br />
+                <a href="/Privacy/TermsAndConditions" title="Terms & Conditions">Terms & Conditions</a> | <a href="/Privacy/PrivacyPolicy" title="Privacy Policy">Privacy Policy</a><br />
+                The Aga Khan Schools are part of the Aga Khan Education Services,<br />an agency of the Aga Khan Development Network
+            </p>
+        </div>
+
+        <div class="row">
+            <div class="hidden-xs col-sm-5 col-md-5">
+                <div class="row">
+                    <div class=" col-md-3 col-lg-2">
+                        <img src="/Content/img/akes_logo_white.png" class="img-responsive" alt="Aga Khan Education Services" />
+                    </div>
+                    <div class="col-md-9 col-lg-10 no-space-l">
+                        <a class="navbar-brand no-space-l" href="/">Aga Khan Education Services</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden-xs col-md-7 copyrightText">
+                <p>
+                    © Aga Khan Schools 2009 - All rights reserved | <a href="/Privacy/TermsAndConditions" title="Terms & Conditions">Terms & Conditions</a> | <a href="/Privacy/PrivacyPolicy" title="Privacy Policy">Privacy Policy</a><br />
+                    The Aga Khan Schools are part of the Aga Khan Education Services, <br class="visible-lg" />an agency of the Aga Khan Development Network
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="/bundles/jquery?v=9X7ZlhTZ0MTw3jHfbFxybQ_pV_srKrxu8lfPTa0as5Q1"></script>
+
+    <script src="/bundles/bootstrap?v=cedsDhTgOLVZez3aQpTsoDydqXWNgvNwRa0X4Fxik-41"></script>
+
+    
+
+    <script>
+        $(function () {
+            $("#AllNews").hide();
+            $("#ViewNews").click(function () {
+                $("#AllNews").toggle();
+            });
+        });
+    </script>
+</body>
+</html>

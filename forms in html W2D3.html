@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Forms</title>
+</head>
+<body>
+
+	<!-- HTML Forms use the <form> tag to collect user input through various interactive controls. These 
+controls range from text fields, numeric inputs, and email fields to password fields, checkboxes, 
+radio buttons, and submit buttons. An HTML Form is a section of the document that collects input 
+from the user. The input from the user is generally sent to a server (Web servers etc). We use the 
+HTML <form> element to create forms in HTML. -->
+
+<!--  HTML Form Elements: 
+HTML form elements are used to store user input. There are various HTML form 
+elements for various input types. The form elements available in HTML5 are as follows: 
+HTML <input> tag  
+HTML <label> tag  
+HTML <button> tag -->
+
+<h1>For for Registration</h1>
+
+<form>
+	<label>First Name</label>
+	<input type="Text" placeholder="First Name " >
+	<br><br>
+
+	<label>Last Name</label>
+	<input type="Text" placeholder="Last Name " >
+	<br><br>
+
+	<label>Email</label>
+	<input type="Email" placeholder="First Name " >
+	<br><br>
+
+	<label>Password</label>
+	<input type="Password" placeholder="First Name " >
+	<br><br>
+
+	<label>Gender</label>
+	<input type="radio" name="gender">Male
+	<input type="radio" name="gender">Female
+	<br><br>
+
+	<label>City</label>
+	<select>
+		<option selected >Karak</option>
+		<option>Bannu</option>
+		<option>Peshawer</option>
+		<option>Kohat</option>
+		<option>Hangu</option>
+		<option>Orakzai</option>
+		<option>MirAli</option>
+		<option>Miranshah</option>
+		<option>Dir</option>
+	</select>
+	<br><br>
+
+	<input type="submit" value="Register">
+
+</form>
+
+<p>------------------------------------------------------------------------------------------------------------------</p>
+
+<table border="1px" title="Registraiton Form">
+	<h1>Registration Form</h1>
+	<form>
+		<tr>
+			<th>
+				Information
+			</th>
+			<th>
+				Input
+			</th>
+		</tr>
+
+
+		<tr>
+			<td><label>First Name</label></td>
+			<td><input type="text" placeholder="First Name"></td>
+		</tr>
+
+		<tr>
+			<td><label>Last Name</label></td>
+			<td><input type="text" placeholder="Last Name"></td>
+
+		</tr>
+		<tr>
+			<td><label>Email</label></td>
+			<td><input type="Email" placeholder="Enter Email"></td>
+		</tr>
+
+		<tr>
+			<td><label>Gender</label></td>
+			<td>
+				<input type="radio" name="gender">Male
+				<input type="radio" name="gender">Female
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>D.O.B</label>
+			</td>
+			<td>
+				<input type="Date">
+			</td>
+		</tr>
+		<tr>
+			<td>
+		<input type="submit" value="Back"></td>
+		<td><button type="submit">Register</button></td>
+	</tr>
+	</form>
+
+</table>
+
+</body>
+</html>

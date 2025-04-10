@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Naive Bayes Algorithm</title>
+    <style>
+        body {
+            font-family: 'Open Sans', Arial, sans-serif;
+            line-height: 1.7;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 25px;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 15px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #2980b9;
+            margin-top: 35px;
+            border-left: 4px solid #3498db;
+            padding-left: 12px;
+        }
+        h3 {
+            color: #16a085;
+            margin-top: 25px;
+        }
+        code {
+            background-color: #e8f4f8;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Roboto Mono', monospace;
+            font-size: 0.95em;
+            color: #c7254e;
+        }
+        pre {
+            background-color: #f0f3f4;
+            padding: 18px;
+            border-radius: 6px;
+            overflow-x: auto;
+            border-left: 4px solid #3498db;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            line-height: 1.5;
+        }
+        .note {
+            background-color: #e8f4f8;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin: 25px 0;
+            border-radius: 0 6px 6px 0;
+        }
+        .equation {
+            font-family: 'Cambria', Georgia, serif;
+            text-align: center;
+            margin: 25px 0;
+            font-size: 1.2em;
+            color: #2c3e50;
+            padding: 12px;
+            background-color: #f0f3f4;
+            border-radius: 6px;
+        }
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+            padding: 15px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+        }
+        .image-caption {
+            font-style: italic;
+            text-align: center;
+            margin-top: 10px;
+            color: #7f8c8d;
+            font-size: 0.95em;
+        }
+        .types-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .type-card {
+            background-color: white;
+            padding: 18px;
+            border-radius: 8px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+            border-top: 3px solid #3498db;
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .comparison-table th, .comparison-table td {
+            padding: 14px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .comparison-table th {
+            background-color: #3498db;
+            color: white;
+            font-weight: 600;
+        }
+        .comparison-table tr:nth-child(even) {
+            background-color: #f5f9fa;
+        }
+        .comparison-table tr:hover {
+            background-color: #e8f4f8;
+        }
+        .math-formula {
+            background-color: #f5f9fa;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 20px 0;
+            border-left: 4px solid #2ecc71;
+        }
+    </style>
+</head>
+<body>
+    <h1>Naive Bayes Classification Algorithm</h1>
+    
+    <section>
+        <h2>Introduction to Naive Bayes</h2>
+        <p>
+            Naive Bayes is a family of probabilistic classification algorithms based on Bayes' Theorem with a strong (naive) independence assumption between features. 
+            Despite its simplicity, Naive Bayes often performs surprisingly well and is widely used for text classification, spam filtering, and recommendation systems.
+        </p>
+        
+        <div class="image-container">
+            <img src="https://miro.medium.com/v2/resize:fit:1400/1*eAY7J0W1nY5pP6-1T_6jJw.png" alt="Naive Bayes Classifier">
+            <div class="image-caption">Figure 1: Naive Bayes classifier workflow</div>
+        </div>
+        
+        <div class="note">
+            <strong>Key Characteristics:</strong>
+            <ul>
+                <li>Fast training and prediction</li>
+                <li>Works well with high-dimensional data</li>
+                <li>Requires relatively little training data</li>
+                <li>Simple to implement and interpret</li>
+                <li>Performs well even when independence assumption is violated</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Bayes' Theorem</h2>
+        <p>
+            The foundation of Naive Bayes is Bayes' Theorem, which describes the probability of an event based on prior knowledge of conditions related to the event:
+        </p>
+        
+        <div class="equation">
+            P(A|B) = (P(B|A) × P(A)) / P(B)
+        </div>
+        
+        <p>In classification terms:</p>
+        
+        <div class="equation">
+            P(y|X) = (P(X|y) × P(y)) / P(X)
+        </div>
+        
+        <p>Where:</p>
+        <ul>
+            <li><strong>P(y|X)</strong> is the posterior probability of class y given predictor X</li>
+            <li><strong>P(y)</strong> is the prior probability of class y</li>
+            <li><strong>P(X|y)</strong> is the likelihood of predictor X given class y</li>
+            <li><strong>P(X)</strong> is the prior probability of predictor X</li>
+        </ul>
+    </section>
+    
+    <section>
+        <h2>The "Naive" Assumption</h2>
+        <p>
+            Naive Bayes assumes that all features are conditionally independent given the class. This means the presence (or absence) of a particular feature 
+            is unrelated to the presence (or absence) of any other feature:
+        </p>
+        
+        <div class="equation">
+            P(x₁, x₂, ..., xₙ|y) = P(x₁|y) × P(x₂|y) × ... × P(xₙ|y)
+        </div>
+        
+        <div class="image-container">
+            <img src="https://www.researchgate.net/publication/334377454/figure/fig3/AS:779860457308163@1562844659878/Conditional-independence-assumption-in-Naive-Bayes.png" alt="Naive Assumption">
+            <div class="image-caption">Figure 2: Conditional independence assumption in Naive Bayes</div>
+        </div>
+        
+        <div class="note">
+            <strong>Why does it work despite this assumption?</strong>
+            <p>
+                Even when the independence assumption is violated, Naive Bayes often performs well because:
+            </p>
+            <ul>
+                <li>Classification only requires the correct decision boundary, not accurate probability estimates</li>
+                <li>It's robust to irrelevant features</li>
+                <li>Works well when the number of features is large</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Types of Naive Bayes Classifiers</h2>
+        
+        <div class="types-container">
+            <div class="type-card">
+                <h3>1. Gaussian Naive Bayes</h3>
+                <p>Assumes continuous features follow a normal distribution:</p>
+                <div class="equation">
+                    P(xᵢ|y) = (1/√(2πσ²)) × exp(-(xᵢ - μ)²/(2σ²))
+                </div>
+                <p><strong>Best for:</strong> Continuous data with normal distribution</p>
+                <p><strong>Example:</strong> Medical test results, measurements</p>
+            </div>
+            
+            <div class="type-card">
+                <h3>2. Multinomial Naive Bayes</h3>
+                <p>Uses frequency counts for discrete features:</p>
+                <div class="equation">
+                    P(xᵢ|y) = (Nᵧᵢ + α) / (Nᵧ + αn)
+                </div>
+                <p><strong>Best for:</strong> Text classification, word counts</p>
+                <p><strong>Example:</strong> Spam detection, document categorization</p>
+            </div>
+            
+            <div class="type-card">
+                <h3>3. Bernoulli Naive Bayes</h3>
+                <p>Designed for binary/boolean features:</p>
+                <div class="equation">
+                    P(xᵢ|y) = P(i|y)xᵢ + (1 - P(i|y))(1 - xᵢ)
+                </div>
+                <p><strong>Best for:</strong> Binary feature data</p>
+                <p><strong>Example:</strong> Text classification with presence/absence of words</p>
+            </div>
+            
+            <div class="type-card">
+                <h3>4. Complement Naive Bayes</h3>
+                <p>Adaptation of Multinomial NB for imbalanced datasets:</p>
+                <div class="equation">
+                    weights = (N_c - N_ci) / (N_c + α)
+                </div>
+                <p><strong>Best for:</strong> Text classification with class imbalance</p>
+                <p><strong>Example:</strong> Sentiment analysis with skewed classes</p>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Implementing Naive Bayes in Python</h2>
+        
+        <h3>1. Gaussian Naive Bayes Example</h3>
+        <pre><code># Import required libraries
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
+from sklearn.naive_bayes import GaussianNB
+from sklearn.metrics import classification_report, confusion_matrix
+from sklearn.preprocessing import StandardScaler
+from mlxtend.plotting import plot_decision_regions
+
+# Load Iris dataset
+iris = load_iris()
+X = iris.data[:, :2]  # Use only first two features for visualization
+y = iris.target
+
+# Split data into training and test sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+
+# Standardize features
+scaler = StandardScaler()
+X_train = scaler.fit_transform(X_train)
+X_test = scaler.transform(X_test)
+
+# Create Gaussian Naive Bayes classifier
+gnb = GaussianNB()
+gnb.fit(X_train, y_train)
+
+# Make predictions
+y_pred = gnb.predict(X_test)
+
+# Evaluate model
+print("Classification Report:")
+print(classification_report(y_test, y_pred))
+print("\nConfusion Matrix:")
+print(confusion_matrix(y_test, y_pred))
+
+# Plot decision boundaries
+plt.figure(figsize=(10, 6))
+plot_decision_regions(X_train, y_train, clf=gnb, legend=2)
+plt.xlabel('Sepal length (standardized)')
+plt.ylabel('Sepal width (standardized)')
+plt.title('Gaussian Naive Bayes Decision Regions')
+plt.show()</code></pre>
+        
+        <div class="image-container">
+            <img src="https://www.researchgate.net/publication/334377454/figure/fig4/AS:779860457308164@1562844659880/Gaussian-Naive-Bayes-decision-boundaries.png" alt="Gaussian NB Output">
+            <div class="image-caption">Figure 3: Gaussian Naive Bayes decision boundaries on Iris dataset</div>
+        </div>
+        
+        <h3>2. Multinomial Naive Bayes for Text Classification</h3>
+        <pre><code># Text classification example
+from sklearn.datasets import fetch_20newsgroups
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.pipeline import make_pipeline
+
+# Load a subset of the 20 Newsgroups dataset
+categories = ['alt.atheism', 'soc.religion.christian', 'comp.graphics', 'sci.med']
+newsgroups_train = fetch_20newsgroups(subset='train', categories=categories)
+newsgroups_test = fetch_20newsgroups(subset='test', categories=categories)
+
+# Create a pipeline: vectorizer + classifier
+model = make_pipeline(
+    TfidfVectorizer(),
+    MultinomialNB(alpha=0.1)
+)
+
+# Train the model
+model.fit(newsgroups_train.data, newsgroups_train.target)
+
+# Evaluate on test set
+y_pred = model.predict(newsgroups_test.data)
+print(classification_report(newsgroups_test.target, y_pred, 
+                          target_names=newsgroups_test.target_names))
+
+# Show most important features per class
+def show_top_features(clf, vectorizer, n=10):
+    feature_names = vectorizer.get_feature_names_out()
+    for i, class_label in enumerate(newsgroups_train.target_names):
+        top_features = np.argsort(clf.feature_log_prob_[i])[-n:]
+        print(f"{class_label}: {' '.join(feature_names[top_features])}")
+
+vectorizer = model.named_steps['tfidfvectorizer']
+clf = model.named_steps['multinomialnb']
+show_top_features(clf, vectorizer)</code></pre>
+        
+        <div class="image-container">
+            <img src="https://www.researchgate.net/publication/334377454/figure/fig5/AS:779860457308165@1562844659882/Text-classification-with-Multinomial-Naive-Bayes.png" alt="Text Classification Output">
+            <div class="image-caption">Figure 4: Text classification with Multinomial Naive Bayes</div>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Advantages and Limitations</h2>
+        
+        <table class="comparison-table">
+            <tr>
+                <th>Advantages</th>
+                <th>Limitations</th>
+            </tr>
+            <tr>
+                <td>Simple, fast, and efficient</td>
+                <td>Strong independence assumptions may not hold</td>
+            </tr>
+            <tr>
+                <td>Works well with high-dimensional data</td>
+                <td>Can produce biased estimates with small datasets</td>
+            </tr>
+            <tr>
+                <td>Requires less training data</td>
+                <td>Not suitable for complex relationships between features</td>
+            </tr>
+            <tr>
+                <td>Performs well with categorical features</td>
+                <td>Zero-frequency problem (requires smoothing)</td>
+            </tr>
+            <tr>
+                <td>Easy to implement and interpret</td>
+                <td>Relies on feature distributions matching assumptions</td>
+            </tr>
+        </table>
+        
+        <div class="image-container">
+            <img src="https://www.researchgate.net/publication/334377454/figure/fig6/AS:779860457308166@1562844659884/Pros-and-cons-of-Naive-Bayes-classifiers.png" alt="Pros and Cons">
+            <div class="image-caption">Figure 5: Summary of Naive Bayes advantages and disadvantages</div>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Practical Applications</h2>
+        
+        <div class="types-container">
+            <div class="type-card">
+                <h3>1. Text Classification</h3>
+                <ul>
+                    <li>Spam email detection</li>
+                    <li>Sentiment analysis</li>
+                    <li>News article categorization</li>
+                    <li>Language identification</li>
+                </ul>
+            </div>
+            
+            <div class="type-card">
+                <h3>2. Recommendation Systems</h3>
+                <ul>
+                    <li>Product recommendations</li>
+                    <li>Content recommendations</li>
+                    <li>Collaborative filtering</li>
+                </ul>
+            </div>
+            
+            <div class="type-card">
+                <h3>3. Medical Diagnosis</h3>
+                <ul>
+                    <li>Disease prediction</li>
+                    <li>Drug effectiveness</li>
+                    <li>Medical test analysis</li>
+                </ul>
+            </div>
+            
+            <div class="type-card">
+                <h3>4. Real-time Prediction</h3>
+                <ul>
+                    <li>Fraud detection</li>
+                    <li>Network intrusion detection</li>
+                    <li>Sensor data classification</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Conclusion</h2>
+        <p>
+            Naive Bayes classifiers are powerful probabilistic models that offer simplicity, speed, and surprisingly good performance across many real-world applications, 
+            particularly in text classification and scenarios with high-dimensional data. While based on strong independence assumptions that rarely hold completely in practice, 
+            these algorithms often perform well because they focus on the optimal classification boundary rather than precise probability estimation.
+        </p>
+        <p>
+            The Python implementations demonstrate how to apply different Naive Bayes variants to both numerical and text data, with Gaussian NB suitable for continuous 
+            features and Multinomial NB ideal for discrete counts like word frequencies. For best results, ensure your data is properly preprocessed, consider feature 
+            selection to remove redundant features, and apply appropriate smoothing to handle unseen feature combinations.
+        </p>
+        <p>
+            Despite newer, more complex algorithms, Naive Bayes remains a valuable tool in the machine learning practitioner's toolkit, especially when computational 
+            efficiency and interpretability are important considerations.
+        </p>
+    </section>
+</body>
+</html>

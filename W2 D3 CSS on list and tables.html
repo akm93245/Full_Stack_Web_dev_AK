@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS LIST AND TABLES</title>
+<style>
+	.ul1 {
+		list-style-type: square;
+		/* list-style-type: circle */
+	}
+	.ol1 {
+		list-style-type: upper-armenian;
+		/* list-style-type: lower-roman etc */
+	}
+
+	.tab{
+		border: 1px solid black;
+		font-family: Arial,Helvetica, sans-serif;
+		border-collapse: collapse;
+		width: 80%;
+		margin: 10px;
+	}
+	
+	.tab tr th{
+		background: #04AA6D;
+		border: 2px solid black;
+		padding: 10px;
+		text-align: left;
+		color: white;
+	}
+	.tab tr td{
+		border: 1px solid black;
+		padding: 10px;
+
+	}
+	.tab tr:nth-child(even){
+		background-color: #f2f2f2;
+	}
+	.tab tr:hover{
+		background-color: #ddd;
+	}
+</style>
+
+</head>
+<body>
+
+<h1>Working with list on CSS</h1>
+<ul class="ul1"> <!-- We can change its styling type using the css-->
+	<li>Bannu</li>
+	<li>Karak</li>
+	<li>Peshawer</li>
+	<li>Kohat</li>
+</ul>
+<ol class="ol1"><!-- We can change its styling type using the css-->
+	<li>Bannu</li>
+	<li>Karak</li>
+	<li>Peshawer</li>
+	<li>Kohat</li>
+</ol>
+
+<hr>
+<hr>
+
+<h1>Working with table on CSS</h1>
+
+<table class="tab">
+	<tr>
+	
+		<th>Roll no.</th>
+		<th>Name</th>
+		<th>Marks</th>
+	</tr>
+	<tr>
+		<td>10</td>
+		<td>Ahmad</td>
+		<td>89</td>
+	</tr>
+	<tr>
+		<td>11</td>
+		<td>Hammad Gul</td>
+		<td>91</td>
+	</tr>
+	<tr>
+		<td>12</td>
+		<td>Akhter Azam</td>
+		<td>90</td>
+	</tr>
+	<tr>
+		<td>13</td>
+		<td>Zayan Aslam</td>
+		<td>87</td>
+	</tr>
+	<tr>
+		<td>14</td>
+		<td>Samad</td>
+		<td>77</td>
+	</tr>
+	<td>15</td>
+	<td>Ihsan</td>
+	<td>86</td>
+</table>
+
+</body>
+</html>

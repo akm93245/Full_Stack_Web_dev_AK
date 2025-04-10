@@ -1,0 +1,33 @@
+
+header {
+	background: lightgray;
+	display: flex;
+	border-radius: 10px;
+}
+
+#h78{
+	padding-left: 30px;
+	font-family: 'Montserrat', sans-serif; font-size: 70px;
+
+}
+.logo {
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.div1 {
+	background: lightskyblue;
+	text-align: center;
+	margin-top: -16px;
+	padding: 6px;
+}
+
+.div1 ul li{
+
+	display: inline;
+	padding: 20px;
+}
+div ul li a{
+	text-decoration: none;
+}
+

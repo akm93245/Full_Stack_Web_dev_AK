@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Navigation menu</title>
+
+	<style >
+		body {
+			background: dimgrey;
+		}
+		body:before{
+			content: "";
+			position: absolute;
+			inset: 40% -60% 0 -60%;
+			opacity: 0.3;
+			pointer-events: none;
+		}
+		nav {
+			position: relative;
+			z-index: 1;
+		}
+		nav ul {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			display: flex;
+			gap: 40px;
+		}
+		nav ul li{
+			display: inline-block;
+			margin: 20px;
+			margin-top: 20px;
+			padding: 5px;
+		}
+
+		nav ul li:not(.active)
+		:hover button {
+			text-shadow: 0 0 10px #ff151580,0 0 20px rgba(255, 17,17, 0.5);
+		}
+
+		nav ul li button {
+			-webkit-apperance : none;
+			moz-appearance : none;
+			appearance: none;
+			border: none;
+			cursor: pointer;
+			background-color: transparent;
+			padding: 0;
+			margin: 0;
+			font-weight: 700;
+			font-size: 16px;
+			list-style: 22px;
+			color: #fff;
+			transform: color 0.25s;
+		}
+
+		nav.before .active-element {
+			transform: rotateY(180deg);
+		}
+
+	</style>
+</head>
+<body>
+<nav class="div">
+	<ul class="ull">
+		<li><a href="">HOME</a></li>
+		<li><a href="">ABOUT</a></li>
+		<li><a href="">BLOG</a></li>
+		<li><a href="">PORTFOLIO</a></li>
+		<li><a href="">CONTACT</a></li>
+	</ul>
+</nav>
+
+</body>
+</html>

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.dd1{
+			background: #5abaf2;
+			color:white;
+			text-align: center;
+		}
+		header{
+			background: #edeae8;
+		}
+		.logo img {
+			width: 7%;
+			padding-top: 7px;
+			padding-left: 6px;
+		}
+		.menu ul li{
+			display: inline-block;
+			padding: 27px;
+
+
+		}
+		.menu ul li a{
+			text-decoration: none;
+			color: black;
+		}
+		.menu{
+			float: right;
+			margin-top: -80px;
+			margin-right: 200px;
+
+		}
+		.slider{
+			background: coral;
+			color: White;
+		}
+		.text{
+			position: absolute;
+			top: 50%;
+			left:10%;
+			color: White;
+			font-size: 50px;
+			text-align: center;
+		}
+		.footer {
+			background: #02b6f7;
+			margin-top: -10px;
+			padding: 50px;
+			padding-left: 100px;
+		}
+		.footer ul li{
+			display: block;
+			padding: 3px;
+			font-size: 20px;
+		}
+		.footer ul li a {
+			text-decoration: none;
+			color: black;
+			padding: ;
+		}
+		.footer ul li a:hover{
+			text-decoration: underline;
+		}
+		.menu ul li a:hover{
+			color: red;
+		}
+
+		.dii {
+			margin-left: 300px;
+			padding-top: -200;
+		}
+		.dii h3{
+			margin-top:-230px;
+			margin-left:300px;
+			font-size: 20px;
+		}
+		.dii ul li{
+			margin-left:300px;
+			padding: 3px;
+		}
+
+		/*------------------------------*/
+
+		.form{
+			background: lightskyblue;
+			box-shadow: 0 0 10px;
+
+		}
+		.tabb{
+			
+			margin-left:400px;
+			height: 500px;
+			padding: 10px;
+			border-color: darkgray;
+		}
+		.tabb tr td label{
+			font-size: 25px;
+		}
+		.tabb tr td input{
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			box-shadow: 0 0 10px darkgray;
+			outline: none;
+		}
+		.tabb tr td select {
+			border: none;
+			padding: 10px;
+			border-radius: 5px;
+		}
+		.form h2 {
+			margin-left: 460px;
+			border: 1px solid darkblue;
+			padding: 10px;
+			margin-right: 520px;
+
+		}
+		.tabb tr td{
+			width: 50%;
+			margin: 30px;
+			padding-left: 30px;
+		}
+
+		#rs:hover{
+			background: red;
+			color:White;
+		}
+		#sb:hover{
+			background: red;
+			color:White;
+		}
+		.tabb tr td input:focus{
+			box-shadow: 5px 5px 10px darkblue;
+		}
+
+
+
+
+
+	</style>
+
+</head>
+<body>
+
+
+
+<div class="dd1">
+	<h1>University of Science & Technology Bannu</h1>
+</div>
+
+
+
+
+
+<header>
+	<div class="logo">
+		<img src="F:\Navttc Web dev\web dev code\project1\logo.png">
+	</div>
+
+
+	<div class="menu">
+		<ul>
+			<ul>
+			<li><a href="F:\Navttc Web dev\web dev code\project1\project2.html">HOME</a></li>
+			<li><a href="">ABOUT US</a></li>
+			<li><a href="">DEPARTMENTS</a></li>
+			<li><a href="">ADMINISTRAION</a></li>
+			<li><a href="">Student Application</a></li>
+		</ul>
+		</ul>
+	</div>
+</header>
+<section>
+<form class="form">
+	<h2>Student Registration Form</h2>
+	<table class="tabb">
+
+		<tr>
+			<td><label>Name</label></td>
+			<td><input type="text" name="" placeholder="Name"></td>
+		</tr>
+
+		<tr>
+			<td><label>F/Name</label></td>
+			<td><input type="text" name="" placeholder="Father Name"></td>
+		</tr>
+
+		<tr>
+			<td><label>Email</label></td>
+			<td><input type="Email" name="" placeholder="youremail@abc.com"></td>
+		</tr>
+
+		<tr>
+			<td><label>CNIC</label></td>
+			<td><input type="number" name="" placeholder="14202-xxxxxxxx-x"></td>
+		</tr>
+
+		<tr>
+			<td><label>Date of Birth</label></td>
+			<td><input type="Date" name=""></td>
+		</tr>
+
+		<tr>
+			<td><label>Gender</label></td>
+			<td>
+				<input type="radio" name="gender"><label>Male</label>
+				<input type="radio" name="gender"><label>Female</label>
+			</td>
+		</tr>
+		<tr>
+			<td><label>Education</label></td>
+			<td>
+				<select>
+					<option>FSc Pre-Engineering</option>
+					<option>FSc Pre-Medical</option>
+					<option>FSc Computer Science</option>
+					<option>FSc Arts</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td><label>Address</label></td>
+			<td><input type="Message" name="" placeholder="street 6, home no.45 district XYZ"></td>
+		</tr>
+
+		<tr>
+			<td><input type="reset" name="" value="New Application" id="rs"></td>
+			<td><input type="submit" value="Submit Application" id="sb"></td>
+		</tr>
+
+
+	</table>
+</form>
+</section>
+
+<div>
+	<img src="F:\Navttc Web dev\web dev code\project1\footer.png" style="width:100%">
+</div>
+
+<footer class="footer">
+	<h3>Quick Links</h3>
+
+	<br><br>
+	<ul>
+		<li><a href="">Online result</a></li>
+		<li><a href="">Online Degree Verification</a></li>
+		<li><a href="">Downloads</a></li>
+		<li><a href="">Admission Notices</a></li>
+		<li><a href="">USTB Calendar</a></li>
+		<li><a href="">Digital Library</a></li>
+	</ul>
+
+<div class="dii">
+	<h3 >Quick Links</h3>
+
+	<br><br>
+	<ul >
+		<li><a href="">Message from VC</a></li>
+		<li><a href="">Students Portal</a></li>
+		<li><a href="">Gallery</a></li>
+		<li><a href="">Feculty</a></li>
+		<li><a href="">Fee Structure</a></li>
+		<li><a href="">Research Department</a></li>
+	</ul>
+</div>
+</footer>
+
+</body>
+</html>
