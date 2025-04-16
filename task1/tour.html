@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="bootstrap.bundle.js" type="text/javascript" ></script>
+</head>
+<body>
+
+    <!--The header Section------------------------------------------ -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <header class="header">
+                    <h1>Khattak Adventure Tourism</h1>
+                </header>
+            </div>
+        </div>
+
+
+        <!--Navigation Section--------------------------------------- -->
+
+
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-md" style="background-color: darkgoldenrod;" id="navi">
+
+                    <img src="logoo.png" alt="logo" class="navbar-brand" style="width: 10%;" >
+
+
+                    
+
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    
+
+
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="navbar navbar-nav navbar-nav-md ms-auto" id="navbarr" >
+                            <li class="nav-item"><a class="nav-link" href="home.html">HOME</a></li>
+                            <li class="nav-item"><a class="nav-link" href="gallary.html">GALLARY</a></li>
+                            <li class="nav-item"><a class="nav-link" href="tour.html">BOOK A TOUR</a></li>
+                            <li class="nav-item dropdown" data-bs-toggle="dropdown"><a class="nav-link dropdown-toggle" href="#">PLACES</a>
+                                <ul class="dropdown-menu" style="background-color: darkgoldenrod; ">
+                                    <li class="dropdown-item"><a href="#" >KARAK</a></li>
+                                    <li class="dropdown-item"><a href="#">PESHAWAR</a></li>
+                                    <li class="dropdown-item"><a href="#">SKARDU</a></li>
+                                    <li class="dropdown-item"><a href="#">GAWADAR</a></li>
+                                    <li class="dropdown-item"><a href="#">CHITRAL</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#">TEAM</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">VISIT US</a></li>
+                        
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+<!--tour Form --------------------------------------------------------------------------- -->
+
+<div class="row" id="rt1">
+    <div class="col" id="ct1">
+        <form action="" id="form1">
+            <h3 style="text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;">Fill out and lets go on a tour😍🏞😍</h3>
+            <div class="form-floating mb-3 mt-3">
+                <input type="text" class="form-control"  name="First Name" placeholder="First Name" id="fn">
+                <label for="fn" >First Name</label>
+                
+            </div>
+            <div class="form-floating mb-3 mt-3">
+                <input type="text" class="form-control" name="ln" placeholder="Last Name" id="ln">
+                <label for="ln" >Last Name</label>
+                
+            </div>
+            <div class="form-floating mb-3 mt-3">
+                <input type="number" class="form-control" name="mobile" placeholder="Contact Number" id="cn">
+                <label for="cn">Contact No</label>
+                
+            </div>
+            <div class="form-floating">
+                
+                <Select class="form-select" id="se1" >
+                    <option >Solo</option>
+                    <option >Couple</option>
+                    <option >Family - 3</option>
+                    <option >Family - 4</option>
+                    <option >Family - 5</option>
+                    <option >Family - 6</option>
+                    <option >Family 7 +</option>
+                </Select>
+                <label for="se1" class="form-label">Size</label>
+
+            </div>
+
+            <div class="form-floating">
+                
+                <Select class="form-select" id="se2">
+                    <option >Hunza and Khunjerab</option>
+                    <option >Skardu</option>
+                    <option >Gawadar and Hangol</option>
+                    <option >Naran Kaghan</option>
+                    <option >Upper Chitral and Kaqlasht</option>
+                    <option >Kumrat and Upper Dir</option>
+                    <option >Chamman and Quetta</option>
+                    <option >Islamabad and Murree</option>
+                    <option >Kalash Valley and Drosh</option>
+                </Select>
+                <label class="form-label" for="se2">Destinations</label>
+
+            </div>
+
+            <div class="form-floating">
+                
+                <Select class="form-select" id="se3">
+                    <option >1 Day</option>
+                    <option >2 Days</option>
+                    <option >3 Days</option>
+                    <option >5 Days</option>
+                    <option >7 Days</option>
+                </Select>
+                <label class="form-label" for="se3">Duration</label>
+
+            </div>
+
+            <div class="form-floating">
+                
+                <Select class="form-select" id="se4">
+                    <option >Luxary</option>
+                    <option >Normal</option>
+                    <option >Cheap</option>
+                </Select>
+                <label class="form-label" for="de4">Accumodation</label>
+
+            </div>
+
+            <div class="form-group">
+                <h6>We Will inform you about your tour If the matching happens. Thank you.</h6>
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </div>
+
+
+
+            
+
+
+        </form>
+    </div>
+</div>
+
+
+
+<!--Footer ------------------------------------------------------------------------------ -->
+
+<div class="row" >
+    <div class="col-md-4" id="ft1">
+        <h3>Booking</h3>
+        <ul>
+            <li><a href="#">Find a tour</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Booking and Cancellation</a></li>
+            <li><a href="#">Refund</a></li>
+            <li><a href="#">Submit Payment</a></li>
+            <li><a href="#">Insurance Policy</a></li>
+            
+        </ul>
+    </div>
+
+    <div class="col-md-4" id="ft22">
+        <h3>Company</h3>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Organizers</a></li>
+            <li><a href="#">Meet our team</a></li>
+            <li><a href="#">Customer Reviews</a></li>
+            <li><a href="#">Sponsers</a></li>
+            
+        </ul>
+    </div>
+
+    <div class="col-md-4" id="ft33">
+        <h3>Contact</h3>
+        <ul>
+            <li><a href="+923363328245" target="_blank">MOB : +923363328245</a></li>
+            <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDXXjxBhFDbcLxlnRHNqKXdzSGDfDDVMDDQgtQnWnFJlHvpZMhCxzqrJvnkfdTClNtWfKMQ" target="_blank">Mail : 93245ahmad@gmail.com</a></li>
+            <li><a href="https://maps.app.goo.gl/2X9BRTAikFTH3UA38" target="_blank">Address :       Khattak Adventure Tourism Agency Office No 3 ground floor,
+                                                                    Dawood Market Main Adda Latamber Karak</a></li>
+            
+        </ul>
+    </div>
+
+</div>
+
+<div class="row" style="width: 100%;">
+    <div class="col">
+        <footer style="background-color: rgb(83, 76, 9);color: white;  ;">
+            <h6 align="center" style="padding-top: 5px;">2020-2025 ALL RIGHTS RESERVED. POWERED BY KHATTAK WEB SOLUTIONS</h6>
+        </footer>
+    </div>
+</div>
+
+
+
+    </div>
+</body>
+</html>

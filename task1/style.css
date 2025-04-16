@@ -1,0 +1,209 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin-left: 0;
+}
+.header{
+    margin-left:-13px;
+    margin-right: -12px;
+    
+}
+.header h1{
+    background-color: lightskyblue;
+    color: black;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 40px;
+}
+
+/*navigation classes ------------------------------------------------------------------------------- */
+
+.navbar-brand{
+    b
+    margin-left: 4px;
+}
+.dropdown-menu li a {
+text-decoration: none
+
+color: black;
+}
+.dropdown-menu li a:hover{
+    color: white;
+}
+.dropdown-menu li:hover{
+    background-color: rgb(83, 76, 9);
+}
+#navbarr li:hover{
+    background-color: rgb(83, 76, 9);
+    border-radius: 8px;
+}
+#navbarr li a:hover{
+    color: white;
+}
+
+#navi {
+    margin-top: -8px;
+    margin-left:-13px;
+    margin-right: -12px;
+}
+
+/* Carousel classes -------------------------------------------------------------------- */
+
+#caroso{
+    margin-left:-13px;
+    margin-right: -12px;
+}
+.carousel-indicators {
+    list-style: none; /* Removes the default numbering */
+}
+/*Div classes about the khattak adventur tourism ---------------------------------------- */
+#cc1{
+    border-right: 1px solid black ;
+    background-color: rgb(182, 222, 238);
+}
+#cc1 p{
+    font-size: 16px;
+}
+#cc2 ul li {
+list-style-type: square;
+font-size: 20px;
+}
+#cc2{
+    background-color: rgb(182, 222, 238);
+}
+
+/* footer ---------------------------------------------------------------------------------- */
+
+#ft1 {
+    background-color: darkgoldenrod;
+    
+    
+}
+#ft1 h3{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+#ft1 ul li{
+    padding-top: 3px;
+    display: block;
+    font-size: 16px;
+    margin-left:50px ;
+
+}
+#ft1 ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#ft1 ul li:hover{
+    background-color: rgb(83, 76, 9);
+    border-radius: 8px;
+}
+
+#ft1 ul li a:hover{
+    color: white;
+}
+
+#ft22 {
+    background-color: darkgoldenrod;
+    
+    
+}
+#ft22 h3{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+#ft22 ul li{
+    padding-top: 3px;
+    display: block;
+    font-size: 16px;
+    margin-left:50px ;
+
+}
+#ft22 ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#ft22 ul li:hover{
+    background-color: rgb(83, 76, 9);
+    border-radius: 8px;
+}
+
+#ft22 ul li a:hover{
+    color: white;
+}
+
+#ft33 {
+    background-color: darkgoldenrod;
+    
+    
+}
+#ft33 h3{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+#ft33 ul li{
+    padding-top: 3px;
+    display: block;
+    font-size: 16px;
+    margin-left:50px ;
+
+}
+#ft33 ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#ft33 ul li:hover{
+    background-color: rgb(83, 76, 9);
+    border-radius: 8px;
+}
+
+#ft33 ul li a:hover{
+    color: white;
+}
+
+
+
+footer {
+    margin-bottom: -30px;
+    margin-left:-13px;
+    margin-right: -36px;
+    height: 30px;
+}
+
+
+/*Tour html css here -------------------------------------------------------------------------------------- */
+
+#rt1{
+    background-color: rgb(236, 182, 110);
+    
+}
+
+#ct1{
+
+}
+#form1{
+    background-color: white;
+    width: 60%;
+    margin-left: 300px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    
+}
+.form-floating{
+    border-radius: 10px;
+    
+}
+.form-floating input:focus{
+    box-shadow: 5px 5px darkgoldenrod ;
+}
+.form-floating select:focus{
+    box-shadow: 5px 5px darkgoldenrod ;
+}
